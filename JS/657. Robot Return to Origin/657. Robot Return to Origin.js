@@ -4,7 +4,6 @@ function judgeCircle(moves) {
 
     for (let i = 0; i < moves.length; i++) {
         const code = moves.charCodeAt(i);
-
         if (code === 85)
             y++; // 'U'
         else if (code === 68)
