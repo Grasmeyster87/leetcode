@@ -3,7 +3,7 @@
  * @param {string} goal
  * @return {boolean}
  */
-var rotateString = function(s, goal) {
+/* var rotateString = function(s, goal) {
     let resultBool = false;
     let value1 = new Array(...s);
     let value2 = new Array(...goal);
@@ -18,6 +18,10 @@ var rotateString = function(s, goal) {
         }
     };
     return resultBool;
+}; */
+var rotateString = function(s, goal) {
+    if (s.length !== goal.length) return false;
+    return (s + s).includes(goal);
 };
 
 let s1 = "abcde";
