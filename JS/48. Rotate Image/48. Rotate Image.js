@@ -12,7 +12,7 @@ var rotate = function(matrix) {
         }
     }
 
-    // Крок 2: реверс кожного рядка
+    // Крок 2: реверс кожного рядка 
     for (let i = 0; i < n; i++) {
         matrix[i].reverse();
     }
