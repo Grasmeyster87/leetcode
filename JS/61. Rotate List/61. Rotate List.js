@@ -41,8 +41,3 @@ var rotateRight = function(head, k) {
 
     return newHead;
 };
-
-head = [1,2,3,4,5];
-k = 2;
-
-console.log(rotateRight(head, k));
